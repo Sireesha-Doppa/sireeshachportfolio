@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="portfolio.css">
+    <title>portfolio</title>
+</head>
+<style>
+    body {font-family: Arial, Helvetica, sans-serif;}
+    
+    .navbar {
+      width: 100%;
+      overflow: auto;
+    }
+    
+    .navbar a {
+      float: left;
+      padding: 12px;
+      color: rgb(247, 240, 240);
+      text-decoration: none;
+      font-size: 19px;
+    }
+    
+    .navbar a:hover {
+      text-decoration:none;
+      border-bottom:3px solid blue;
+    }   
+    @media screen and (max-width: 500px) {
+      .navbar a {
+        float: none;
+        display: block;
+      }
+    }
+        .card {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px;
+            width: 300px;
+            height:200px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+        }
+
+        .card h4 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            font-size: 1em;
+            margin-bottom: 10px;
+        }
+
+    </style> 
+
+<body>
+    <!--home section-->
+
+    <!--navbar-->
+    <div class="homesection">
+      <div class="cover">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="nav-port"> Home </a>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto d-flex justify-content-spacebetween">
+                  <a class="nav-port" href="#aboutsection" >About</a>
+                  <a class="nav-port" href="#educationsection" >Education</a>
+                  <a class="nav-port" href="#projectssection" >Projects</a>
+                  <a class="nav-port" href="#contactsection" >Contact</a>
+                </div>
+              </div>
+            </div>
+          </nav>       
+ 
+    <!--home-->
+        <div class="homecontainer">
+          <div class="hometext">
+              <h1 class="homeheading">Hiii....I Am Sireesha Chaduvula <br>FrontEnd Developer</h1>
+          </div>
+      </div>
+    </div>
+
+    <!--aboutmesection-->
+    <div id="aboutsection">
+      <div class="about-container pt-5 pb-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h1 class="aboutheading">About me</h1>
+            </div>
+             <div class="col-12 col-lg-8 about-text mb-3">
+               <h3 style="color:rgb(73, 47, 203)">I Develop Experiences that make people's live simple.</h3>
+                 <p style="color:rgb(73, 47, 203);font-size:18px">Hii...I am Sireesha Chaduvula.Having total three years of experience on development and maintenance of ecommerce websites,responsive webdesigns and also experience in working Html,CSS,Js,Bootstrap,SQL.I am insterested in developing new projects using Frontend Technology.
+                  As a front-end developer,i'm driven by a deep passion for creating seamless,visually engaging user interfaces.With a solid foundation 
+                  in HTML,CSS,Javascript, i excel at turning design concepts into interactive web experiences.
+                 </p>
+                </div>
+                 <div class="col-12 col-lg-4 mb-4 pb-4">
+                 <img src="images/pic.jpeg" class="image1">
+                </div>
+          </div>
+       </div>
+     </div>
+    </div>
+  
+  
+        
+  
+
+    <!--educationsection-->
+    <div id="educationsection">
+      <div class="educationcontainer pt-5 pb-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-4">
+              <h1 class="eduheading">GRADUATION</h1>
+               <div class="shadow card p-3">
+                   <h4>MVGR College Of Engineering</h4>
+                     <p>Degree:Electronics And Communication Of Engineering</p>
+                     <p>Year of passing: 2016</p>
+                </div>
+              </div>
+                <div class="col-12 col-md-4">
+                <h1 class="eduheading">INTERMEDIATE</h1>
+                <div class="shadow card p-3">
+                  <h4>Sri Chaitanya College</h4>
+                    <p>MPC</p>
+                    <p>Year of passing: 2012</p>
+               </div>
+              </div>
+               <div class="col-12 col-md-4">
+                <h1 class="eduheading">SSC</h1>
+               <div class="shadow card p-3">
+                <h4>Government High school</h4>
+                  <p>SSC</p>
+                  <p>Year of passing: 2010</p>
+             </div>
+            </div>       
+      </div>
+    </div>
+  </div>
+  
+
+    <!--projectssection-->
+        <div id="projectssection">
+            <div class="projectcontainer pt-5 pb-5">
+              <div class="container">
+                <div class="row">
+                  <div class="col-12">
+                    <h1 class="projectheading">My Recent Projects</h1>
+                  </div>
+                  <div class="col-12 col-md-4">
+                  <div class="projectcard">
+                    <img src="your-image-url.jpg" alt="projectImage">
+                    <div class="card-content">
+                      <h2>Portfolio</h2>
+                      <p>In this static portfolio related to showcase my skills using HTML,
+                        CSS,Bootstrap.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+
+
+
+            </div>
+
+
+
+        </div>
+
+
+   
+</body>
+</html>
