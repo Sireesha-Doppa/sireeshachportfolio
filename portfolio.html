@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    
+    <link rel="stylesheet" href="portfolio.js">
     <link rel="stylesheet" href="portfolio.css">
     <title>portfolio</title>
 </head>
@@ -159,20 +160,90 @@
                     <h1 class="projectheading">My Recent Projects</h1>
                   </div>
                   <div class="col-12 col-md-4">
-                  <div class="projectcard">
-                    <img src="images/website2.png" class="projectimage" onclick="displayText()">
-                    <div id="text"></div>
+                    <div class="projectcard mt-5">
+                    <a href="https://github.com/Sireesha-Doppa/siriportfoliog" target="_blank">
+                        <img src="images/website2.png" class="projectimage">
+                    </a>
+                    <p>In this static portfolio related to showcase my skills using HTML,
+                        CSS,Bootstrap.</p>
                   </div>
                 </div>
-
+                <div class="col-12 col-md-4">
+                    <div class="projectcard mt-5">
+                    <img src="images/portfolio.png" class="projectimage">
+                    <p>In this dynamic portfolio related to showcase my skills using HTML,
+                        CSS,Bootstrap,Javascript.</p>
+                  </div>
+                </div>
             </div>
         </div>
     </div>
+</div>
 
-
-
-        </div>
-
+<!--contactsection-->
+<div id="projectssection">
+    <div class="projectcontainer pt-5 pb-5">
+        <section class="contact-sec sec-pad pt-5 pb-5">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="contact-detail">
+                    <h1 class="section-title">Contact us</h1>
+                    <ul class="contact-ul">
+                      <li>
+                        <i class="fa fa-phone"></i>
+                        <a href="tel:+919441269901"><b>9441269901</b></a>,
+                      </li>
+                     <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="mailto:doppasirisha@gmail.com"><b> doppasirisha@gmail.com</b></a>
+                      </li>
+                      <li><i class="fa fa-location-dot"></i>India</li>
+                    </ul>
+          
+                    <span>
+                      <a href="#" class="fb"><i class="fa-brands fa-facebook"></i></a>
+                      <a href="#" class="insta"><i class="fa-brands fa-instagram"></i></a>
+                      <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+                    </span>
+                  </div>
+                </div>
+          
+                <div class="col-md-6">
+                  <form action="#" class="contFrm" method="POST">
+                    <div class="row">
+                      <div class="col-sm-6">
+                        <input type="text" name="name" placeholder="Your Name" class="inptFld" required />
+                      </div>
+          
+                      <div class="col-sm-6">
+                        <input type="email" name="email" placeholder="Email Address" class="inptFld" required />
+                      </div>
+          
+                      <div class="col-sm-6">
+                        <input type="tel" name="phone" placeholder="Phone Number" class="inptFld" required />
+                      </div>
+          
+                      <div class="col-sm-6">
+                        <input type="text" name="sub" placeholder="Subject" class="inptFld" required />
+                      </div>
+          
+                      <div class="col-12">
+                        <textarea class="inptFld" rows="" cols="" placeholder="Your Message..." required></textarea>
+                      </div>
+          
+                      <div class="col-12">
+                        <input type="submit" name="submit" value="SUBMIT" class="inptBtn" />
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+          
+            </div>
+          </section>
+</div>
+</div>
 
    
 </body>
