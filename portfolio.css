@@ -152,14 +152,13 @@
     color: #f93;
   }
   
-  .contact-section .contact-ul li .fa-location-dot {
-    color: #f44337;
-    border: 2px solid #f4433790;
-  }
-  
   .contact-section .contact-ul li .fa-phone {
     color: #00b055;
     border: 2px solid #00b05590;
+  }
+  .contact-section .contact-ul li .fa-location-dot {
+    color: #f44337;
+    border: 2px solid #f4433790;
   }
   
   .contact-section .contact-ul li .fa-envelope {
