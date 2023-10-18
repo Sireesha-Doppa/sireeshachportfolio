@@ -124,7 +124,7 @@
   .contact-section {
     text-align: center;
     display: flex;
-    background-color: #36b96e66;
+    background-color:#c1bdbd;
   }
   
   .contact-section .contact-ul li,
@@ -187,7 +187,7 @@
     height: 50px;
     border: 0;
     margin: 0 0 10px;
-    border-radius: 8px;
+    border-radius: 10px;
     padding: 0 20px;
     font-size: 16px;
     color: #000;
@@ -195,7 +195,7 @@
   
   .inptFld:focus {
     outline-offset: -4px;
-    outline: 1px solid #f93;
+    outline: 2px solid rgb(12, 7, 111);
   }
   
   .contFrm textarea {
@@ -205,7 +205,7 @@
   .inptBtn {
     height: 50px;
     border: 0;
-    background: #00b055;
+    background: #101e4f;
     font-size: 14px;
     color: #fff;
     margin: auto;
@@ -309,6 +309,5 @@
 
   }
   body, html {
-    height: 100%;
     font-family: 'Roboto', sans-serif;
   }
