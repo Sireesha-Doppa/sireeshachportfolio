@@ -1,15 +1,19 @@
 
 .cover{
     background-image:url("https://cutewallpaper.org/21/it-background-images/it-background-5-Habilelabs.jpg");
-    background-size:cover;
-    height:100vh;
 
 }
 .homecontainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-image:url("https://cutewallpaper.org/21/it-background-images/it-background-5-Habilelabs.jpg");
     height:100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  
 }
 
 .hometext{
@@ -131,7 +135,6 @@
   .contact-ul b {
     font-size: 20px;
     margin: 10px 0;
-    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     word-wrap: break-word;
   }
   
