@@ -81,57 +81,17 @@
   max-width: 100%;
   height: auto;
 }
+.contactcontainer{
+     background-color:rgb(175, 172, 208)
+}
 
+.section-title{
+  color:#a13498;
+  padding-left:5px;
 
+}
 
-
-
-
-
-
-
-
-* {
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
-    box-sizing: border-box;
-  }
-  
-  body {
-    overflow-x: hidden;
-    font-family: "Poppins", sans-serif;
-    font-size: 16px;
-  }
-  
-  ul {
-    list-style: none;
-  }
-  
-  input {
-    overflow: hidden;
-  }
-  
-  .section-title {
-    position: relative;
-    font-size: 30px;
-    font-weight: 600;
-    font-family: "Poppins", sans-serif;
-    margin: 0 0 35px;
-  }
-  
-  .sec-pad {
-    padding: 60px 0 0;
-    margin: 50px 0;
-  }
-  
-  .contact-section {
-    text-align: center;
-    display: flex;
-    background-color:#c1bdbd;
-  }
-  
-  .contact-section .contact-ul li,
+.contact-section .contact-ul li,
   .contact-ul b {
     font-size: 20px;
     margin: 10px 0;
@@ -157,11 +117,7 @@
     color: #00b055;
     border: 2px solid #00b05590;
   }
-  .contact-section .contact-ul li .fa-location-dot {
-    color: #f44337;
-    border: 2px solid #f4433790;
-  }
-  
+
   .contact-section .contact-ul li .fa-envelope {
     color: #ff6347;
     border: 2px solid #ff634790;
@@ -185,104 +141,22 @@
     margin: auto;
   }
   
-  .inptFld {
+  .form-control {
     width: 100%;
     height: 50px;
-    border: 0;
+    border: 4px sol;
     margin: 0 0 10px;
     border-radius: 10px;
     padding: 0 20px;
     font-size: 16px;
     color: #000;
   }
-  
-  .inptFld:focus {
-    outline-offset: -4px;
-    outline: 2px solid rgb(12, 7, 111);
-  }
-  
-  .contFrm textarea {
-    height: 75px;
-    padding-top: 5px;
-  }
-  .inptBtn {
-    height: 50px;
-    border: 0;
-    background: #101e4f;
+  .error-message {
+    color: #dc3545;
+    font-family: "Roboto";
     font-size: 14px;
-    color: #fff;
-    margin: auto;
-    letter-spacing: 1px;
-    cursor: pointer;
-    width: 100%;
-    max-width: 200px;
   }
   
-  /* Responcive css Start */
-  
-  @media (max-width: 991px) {
-    .sec-pad {
-      padding: 20px 0 0px;
-    }
-  
-    .contact-section .contact-ul li,
-    .contact-ul b {
-      font-size: 18px;
-    }
-  
-    .contact-section .contact-ul i {
-      font-size: 14px;
-      padding: 6px;
-      margin-right: 6px;
-    }
-  
-    .inptFld {
-      height: 40px;
-      margin: 0 0 10px;
-      padding: 0 14px;
-      font-size: 14px;
-    }
-  }
-  
-  @media (max-width: 767px) {
-    .contact-detail span {
-      width: auto;
-    }
-    .contact-detail span a {
-      font-size: 18px;
-      padding: 5px 10px;
-      color: #000;
-      border-radius: 50%;
-      margin: 0px 5px 20px;
-    }
-  }
-  
-  @media (max-width: 575px) {
-    .section-title {
-      font-size: 26px;
-      font-weight: 500;
-    }
-    .contact-section {
-      border-radius: 10% 10% 0% 0% / 5% 5% 0% 0%;
-    }
-  
-    .contact-section .contact-ul i {
-      border: none;
-    }
-    .inptFld {
-      height: 36px;
-      margin: 0 0 8px;
-      padding: 0 14px;
-      font-size: 14px;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .contact-section .contact-ul li,
-    .contact-ul b {
-      font-size: 16px;
-    }
-  }
   
 
   .img8, .img9, .img10,.img11 {
@@ -314,3 +188,4 @@
   body, html {
     font-family: 'Roboto', sans-serif;
   }
+  
