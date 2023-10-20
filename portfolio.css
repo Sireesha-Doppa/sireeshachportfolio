@@ -1,3 +1,6 @@
+.html{
+  scroll-behavior:smooth;
+}
 
 .cover{
     background-image:url("https://cutewallpaper.org/21/it-background-images/it-background-5-Habilelabs.jpg");
@@ -185,7 +188,5 @@
     min-height: 400px;
 
   }
-  body, html {
-    font-family: 'Roboto', sans-serif;
-  }
+  
   
